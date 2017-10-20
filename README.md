@@ -1,5 +1,8 @@
 # Relation Classification with Bi-LSTM
 
+
+Example data is available in the data folder.
+
 ## Required Packages
 - Python 2.7
 - numpy 1.11.1+
@@ -7,6 +10,8 @@
 - Theano
 - gensim
 - sklearn
+- docopt
+- nltk
 
 ## Usage
 
