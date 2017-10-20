@@ -1,0 +1,9 @@
+name: bilstm-relaiton-classification
+dependencies:
+  - python=2.7
+  - theano
+  - numpy
+  - scikit-learn
+  - gensim
+  - docopt
+  - nltk

@@ -1,0 +1,12 @@
+[dnn]
+include_path=/export/home/CUDA/include/
+library_path=/export/home/CUDA/lib64/
+
+[global]
+device = cuda0
+floatX = float32
+mode = FAST_RUN
+allow_gc=True
+
+[scan]
+allow_gc=True
