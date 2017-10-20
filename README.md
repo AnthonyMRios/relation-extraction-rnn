@@ -1,4 +1,4 @@
-# Relation Classification with Bi-LSTM
+# Bi-LSTM Relation Extraction Model
 
 
 Example data is available in the data folder.
