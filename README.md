@@ -1,6 +1,17 @@
 # Relation Classification with Bi-LSTM
 
-## Training
+## Required Packages
+- Python 2.7
+- numpy 1.11.1+
+- scipy 0.18.0+
+- Theano
+- gensim
+- sklearn
+
+## Usage
+
+
+### Training
 
 ```
 Usage:
