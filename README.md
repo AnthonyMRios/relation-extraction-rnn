@@ -25,11 +25,11 @@ Options:
   --dev_ids=<file>             ids of dev exapmles (see data folder for example)
   --test_ids=<file>            ids of test examples (see data folder for example)
   --model=<file>               filename to use to save model
-  --num_epochs=<ar>            Max number of epochs [default: 25]
-  --mini_batch_size=<ar>       Minibatch size [default: 32]
-  --num_classes=<ar>           Total number of classes for training [default: 5]
-  --lstm_hidden_state=<ar>     lstm hidden state size [default: 256]
-  --random_seed=<ar>           random seed [default: 42]
+  --num_epochs=<arg>            Max number of epochs [default: 25]
+  --mini_batch_size=<arg>       Minibatch size [default: 32]
+  --num_classes=<arg>           Total number of classes for training [default: 5]
+  --lstm_hidden_state=<arg>     lstm hidden state size [default: 256]
+  --random_seed=<arg>           random seed [default: 42]
 ```
 
 ## Acknowledgements
