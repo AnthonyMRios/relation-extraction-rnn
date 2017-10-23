@@ -87,15 +87,15 @@ class LoadData(object):
             final_string_pos = nltk.pos_tag(final_string)
             tree = self.tagger.parse(final_string_pos)
             iob_tags = tree2conlltags(tree)
-            final_e1_string = ['proteina']
-            final_e2_string = ['proteinb']
+            final_e1_string = ['druga']
+            final_e2_string = ['drugb']
             e1_pos = None
             e2_pos = None
             cnt = 0
             for w in final_string:
-                if w == 'proteina':
+                if w == 'druga':
                     e1_pos = cnt
-                elif w == 'proteinb':
+                elif w == 'drugb':
                     e2_pos = cnt
                 cnt += 1
             tmp = []
@@ -186,15 +186,15 @@ class LoadData(object):
             final_string_pos = nltk.pos_tag(final_string)
             tree = self.tagger.parse(final_string_pos)
             iob_tags = tree2conlltags(tree)
-            final_e1_string = ['proteina']
-            final_e2_string = ['proteinb']
+            final_e1_string = ['druga']
+            final_e2_string = ['drugb']
             e1_pos = None
             e2_pos = None
             cnt = 0
             for w in final_string:
-                if w == 'proteina':
+                if w == 'druga':
                     e1_pos = cnt
-                elif w == 'proteinb':
+                elif w == 'drugb':
                     e2_pos = cnt
                 cnt += 1
             if e1_pos is None or e2_pos is None:
@@ -246,8 +246,8 @@ class LoadData(object):
                         e2_idx.append(self.pos_index['PosUNK'])
             pos_e2_idx.append(e2_idx)
 
-        lab_lookup = {'False':0, 'True':1}
-        self.lab_lookup_rev = {0:'False', 1:'True'}
+        lab_lookup = {'OTHER':0, 'CLASS1':1}
+        self.lab_lookup_rev = {0:'OTHER', 1:'CLASS1'}
         final_y = np.array([np.int32(lab_lookup[x]) for x in y])
 
         return pairs_idx, pos_e1_idx, pos_e2_idx, final_y, subj_labels, pred_labels, obj_labels, idents, e1_ids, e2_ids

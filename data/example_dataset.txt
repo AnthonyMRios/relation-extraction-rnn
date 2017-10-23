@@ -1,36 +1,36 @@
 Recent studies have provided consistent evidence that treatment with abatacept results in a rapid onset of efficacy that is maintained over the course of treatment in patients with inadequate response to DRUGB and anti- DRUGA therapies .
-16357751	16357751	T1	T2	OTHER
+16357751.s1	16357751	T1	T2	OTHER
 
 DRUGA inhibitors currently under investigation include the small molecules DRUGB ( Iressa , ZDdgdgdgdg ) and erlotinib ( Tarceva , OSI-dgdgdg ) , as well as monoclonal antibodies such as cetuximab ( IMC-dgdgdg , Erbitux ) .
-14967461	14967461	T22	T1	CLASS1
+14967461.s1	14967461	T22	T1	CLASS1
 
 Taken together , the results of the present study have characterized DRUGA as an inhibitor of matriptase-dg that modulates the synthesis of hepcidin and provides new insights into the regulatory mechanism of DRUGB homoeostasis , with clinical importance for a treatment of iron overload diseases .
-23293962	23293962	T5	T1	OTHER
+23293962.s1	23293962	T5	T1	OTHER
 
 Taken together , the results of the present study have characterized HAI-dg as an inhibitor of matriptase-dg that modulates the synthesis of DRUGA and provides new insights into the regulatory mechanism of iron homoeostasis , with clinical importance for a treatment of DRUGB overload diseases .
-23293962	23293962	T7	T2	OTHER
+23293962.s1	23293962	T7	T2	OTHER
 
 DRUGB and bromoacetylalprenololmenthane are competitive slowly reversible antagonists at the DRUGA of rat left atria .
-7678677	7678677	T14	T19	CLASS2
+7678677.s1	7678677	T14	T19	CLASS1
 
 Alprenolol and DRUGB are competitive slowly reversible antagonists at the DRUGA of rat left atria .
-7678677	7678677	T15	T19	CLASS2
+7678677.s1	7678677	T15	T19	CLASS1
 
 DRUGA was chemically bound via linkers to DRUGB -loaded HSA-NP .
-16554356	16554356	T10	T3	OTHER
+16554356.s1	16554356	T10	T3	OTHER
 
 Apolipoprotein E was chemically bound via linkers to DRUGB -loaded DRUGA -NP .
-16554356	16554356	T3	T11	OTHER
+16554356.s1	16554356	T3	T11	OTHER
 
 Discovery and optimization of DRUGB as inhibitors of methionine aminopeptidase-dg : a structural basis for the reduction of DRUGA binding .
-16789740	16789740	T4	T13	CLASS1
+16789740.s1	16789740	T4	T13	CLASS1
 
 Discovery and optimization of DRUGB as inhibitors of DRUGA : a structural basis for the reduction of albumin binding .
-16789740	16789740	T4	T14	OTHER
+16789740.s1	16789740	T4	T14	OTHER
 
 BACKGROUND : Since the introduction of the first DRUGA inhibitor ( ChEI ) in dgdgdgdg , most clinicians and probably most patients would consider the cholinergic drugs , DRUGB , galantamine and rivastigmine , to be the first line pharmacotherapy for mild to moderate Alzheimer 's disease.The drugs have slightly different pharmacological properties , but they all work by inhibiting the breakdown of acetylcholine , an important neurotransmitter associated with memory , by blocking the enzyme acetylcholinesterase .
-16437532	16437532	T39	T11	CLASS1
+16437532.s1	16437532	T39	T11	CLASS1
 
 Mitiglinide ( DRUGB ) , a new anti-diabetic drug , is thought to stimulate insulin secretion by closing the DRUGA in pancreatic beta-cells .
-11716850	11716850	T15	T42	CLASS1
+11716850.s1	11716850	T15	T42	CLASS1
 
