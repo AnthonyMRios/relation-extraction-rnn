@@ -90,4 +90,6 @@ Options:
 }
 ```
 
+For the character-level counterpart to this model, see this [repo](https://github.com/bionlproc/relation-extraction-char-rnn) by Tung Tran.
+
 Written by Anthony Rios (anthonymrios at gmail dot com)
