@@ -16,7 +16,7 @@ Implementation of a word-level bi-lstm relation extraction model (Kavuluru et al
 
 ### Data Format
 
-We use a custom data format as input to our model. Specifically, each example consists of two lines. The first line represents the sentences and the two entities must be marked as DRUGA or DRUGB, respectively. We use the DRUGA and DRUGB convention because our work focused on extracting drug-drug interactions. These entity markers must be used because they are used to find the positive vectors for each word in the sentence relative to each entity. The second line should contain the sentence id, document id, DRUGA id, DRUGB id, and the associated class for that instance. Each id should be separated by a tab.
+We use a custom data format as input to our model. Specifically, each example consists of two lines. The first line represents the sentences and the two entities **must** be marked as DRUGA or DRUGB, respectively. We use the DRUGA and DRUGB convention because our work focused on extracting drug-drug interactions. These entity markers must be used because they are used to find the position vectors for each word in the sentence relative to each entity. The second line should contain the sentence id, document id, DRUGA id, DRUGB id, and the associated class for that instance. Each id should be separated by a tab. Finally, each example must be separated by a blank line.
 
 ```
 Sentence start DRUGA sentence middle DRUGB sentence end .
