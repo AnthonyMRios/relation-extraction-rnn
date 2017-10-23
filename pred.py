@@ -32,7 +32,7 @@ def main(argv):
     np.random.seed(random_seed)
     random.seed(random_seed)
 
-    mini_batch_size = 64
+    mini_batch_size = argv['--mini_batch_size']
 
     def read_ids(file):
         ids = []
