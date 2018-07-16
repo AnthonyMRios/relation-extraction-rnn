@@ -85,8 +85,8 @@ class LoadData(object):
                 continue
             final_string = tr.split()
             final_string_pos = nltk.pos_tag(final_string)
-            tree = self.tagger.parse(final_string_pos)
-            iob_tags = tree2conlltags(tree)
+            #tree = self.tagger.parse(final_string_pos)
+            #iob_tags = tree2conlltags(tree)
             final_e1_string = ['druga']
             final_e2_string = ['drugb']
             e1_pos = None
@@ -184,8 +184,8 @@ class LoadData(object):
                 continue
             final_string = tr.split()
             final_string_pos = nltk.pos_tag(final_string)
-            tree = self.tagger.parse(final_string_pos)
-            iob_tags = tree2conlltags(tree)
+            #tree = self.tagger.parse(final_string_pos)
+            #iob_tags = tree2conlltags(tree)
             final_e1_string = ['druga']
             final_e2_string = ['drugb']
             e1_pos = None
