@@ -50,7 +50,7 @@ def main(argv):
     mod = BiLSTM(ld.embs, ld.pos, ld.pospeech, ld.chunk, nc=5, nh=2048, de=ld.embs.shape[1])
     mod.__setstate__(tmp['model_params'])
 
-    pairs_idx, chunk_idx, pos_idx, pos_e1_idx, pos_e2_idx, _, subj_y, pred_y, obj_y, idents, e1_ids, e2_ids  = ld.transform(argv['--dataset'], test_ids)
+    pairs_idx, pos_e1_idx, pos_e2_idx, y, _, _, _, _, _, _  = ld.transform(argv['--dataset'], test_ids)
 
     test_idxs = list(range(len(pairs_idx)))
 
@@ -67,12 +67,9 @@ def main(argv):
         preds = mod.predict_proba(tpairs, te1, te2, np.float32(1.))
 
         for x in preds:
-            if x > 0.5:
-                all_test_preds.append(1)
-            else:
-                all_test_preds.append(0)
+            all_test_preds.append(x.argmax())
 
-    test_f1 = f1_score(y, all_test_preds, average='binary')
+    test_f1 = f1_score(y, all_test_preds, average='micro')
     print("test_f1: %.4f" % (test_f1))
     sys.stdout.flush()
 

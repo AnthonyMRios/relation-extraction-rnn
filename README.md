@@ -33,7 +33,7 @@ Example data is available in the data folder.
 ### Training
 
 ```
-python train.py --word2vec=/path/to/word2vecfile.pkl --dataset=./data/example_dataset.txt --train_ids=./data/train_dev_test/train_ids.txt --dev_ids=./data/train_dev_test/dev_ids.txt --test_ids=./data/train_dev_test/test_ids.txt --model=/path/to/save/model_name
+python train.py --word2vec=/path/to/word2vecfile.pkl --dataset=./data/example_dataset.txt --train_ids=./data/train_dev_test/train_ids.txt --dev_ids=./data/train_dev_test/dev_ids.txt --model=/path/to/save/model_name
 ```
 
 ```
