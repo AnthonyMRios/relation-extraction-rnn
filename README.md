@@ -46,7 +46,6 @@ Options:
   --dataset=<file>             dataset (see data folder for example)
   --train_ids=<file>           ids of training examples (see data folder for example)
   --dev_ids=<file>             ids of dev exapmles (see data folder for example)
-  --test_ids=<file>            ids of test examples (see data folder for example)
   --model=<file>               filename to use to save model
   --num_epochs=<arg>            Max number of epochs [default: 25]
   --mini_batch_size=<arg>       Minibatch size [default: 32]

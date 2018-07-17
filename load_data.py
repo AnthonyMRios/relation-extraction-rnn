@@ -69,8 +69,8 @@ class LoadData(object):
         self.embs = [np.zeros((300,))]
         self.pos  = [np.zeros((32,))]
         logging.debug('Loading %s', word2vec_file)
-        self.wv = gensim.models.Word2Vec.load('/home/amri228/i2b2_2016/ddi/word_vecs2/gensim_model_pubmed')
-        #self.wv = KeyedVectors.load_word2vec_format(word2vec_file, binary=False)
+        #self.wv = gensim.models.Word2Vec.load('/home/amri228/i2b2_2016/ddi/word_vecs2/gensim_model_pubmed')
+        self.wv = KeyedVectors.load_word2vec_format(word2vec_file, binary=False)
         logging.debug('Done')
         self.max_u = self.wv.syn0.max()
         self.min_u = self.wv.syn0.min()
